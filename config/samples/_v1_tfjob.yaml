@@ -1,0 +1,12 @@
+apiVersion: kubeflow.org/v1
+kind: TFJob
+metadata:
+  labels:
+    app.kubernetes.io/name: tfjob
+    app.kubernetes.io/instance: tfjob-sample
+    app.kubernetes.io/part-of: simple-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: simple-operator
+  name: tfjob-sample
+spec:
+  # TODO(user): Add fields here
